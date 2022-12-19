@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <style>
+    html, body {
+            scroll-behavior: smooth;
+            margin: 0;
+            font-family: "Yu Gothic UI Semibold";
+            -webkit-user-select: none; /* Safari */
+           -ms-user-select: none; /* IE 10 and IE 11 */
+           user-select: none; /* Standard syntax */   
+           background-color: #00c7a1;
+           scroll-behavior: smooth;
+        }
+
+        ::-webkit-scrollbar {
+          width: 0px;
+          background: transparent;
+
+        }
+
+        a {
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+
+
+
+        #Headerbar {
+          background-color: #00254b;
+          width: 100%;
+          height: 140px;
+        }
+        
+        #tittel {
+          float: left;
+          font-size: 40px;
+          margin-left: 30px;
+          margin-right: 60px;
+          margin-top: 15px;
+        }
+
+        #logoHeader {
+          float: left;
+          margin-left: 15%;
+          margin-right: 30px;
+          margin-top: 15px;
+        }
+
+        .menuleft {
+          background-color: #00254b;
+          float: left;
+          font-size: 20px;
+          margin-left: 20px;
+          margin-top: 70px;
+          transition: 0.5s;
+          padding-left: 10px;
+          padding-right: 10px;
+          border-top-right-radius: 20px;
+            border-top-right-radius: 2px ;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+            transition-delay: 0.1s;
+        }
+
+        .menuleft:hover {
+            transition: 0.3s;
+            background-color: #00c7a1;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 2px ;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;   
+        }
+        
+        .menuright {
+          float: right;
+          font-size: 20px;
+          margin-right: 20px;
+          margin-top: 70px;
+          transition: 0.5s;
+          padding-left: 10px;
+          padding-right: 10px;
+          border-top-right-radius: 20px;
+            border-top-right-radius: 2px ;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+            transition-delay: 0.1s;
+        }
+
+        .menuright:hover {
+          transition: 0.3s;
+            background-color: #00c7a1;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 2px ;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+            
+        }
+
+        #main {
+          float: left;
+          margin-top: 250px;
+          width: 100%;
+          height: 100%;
+        }
+
+        .elementer {
+          background-color: #00254b;
+          width: 23.75%;
+          height: 373px;
+          float: left;
+          border-radius: 20px;
+          margin-bottom: 50px;
+          color: white;
+          transition: 0.2s;        
+        }
+
+        .elementer:hover {
+          background-color: #083563;
+          transition: 0.1s;
+          cursor: pointer;          
+        }
+
+        .sectionBig {
+          background-color: #00254b;
+          width: 1792px;
+          height: 650px;
+          float: left;
+          border-radius: 20px;
+          margin-bottom: 50px;
+          color: white;
+          transition: 0.2s;
+          
+        }
+
+        .sectionBig:hover {
+          background-color: #083563;
+          transition: 0.1s;
+          cursor: pointer;   
+                 
+        }
+
+        .sectionMedium {
+          background-color: #00254b;
+          width: 49.1666666667%;
+          height: 423px;
+          float: left;
+          border-radius: 20px;
+          margin-bottom: 50px;
+          color: white;
+          transition: 0.2s;
+          
+        }
+
+        .sectionMedium:hover {
+          background-color: #083563;
+          transition: 0.1s;
+          cursor: pointer;   
+                 
+        }
+
+        
+
+
+        .headerBox {
+          width: 100%;
+          float: left;
+          text-align: center;
+          margin: 0 auto;
+        }
+
+
+
+
+
+
+
+        #HovedFil {
+          background-color: #00c7a1;
+          float: left;
+          width: 70%;          
+
+        }
+
+        .sideFilene {
+          background-image:  url(../Resusser/Medier\ og\ sosiale\ medier/Bilder/Annet/Sidefilene%20bg-01.png);
+          background-size: cover;
+          float: left;
+          height: 1440px;
+          width: 15%;          
+          background-repeat: no-repeat;                    
+        }
+
+
+
+        #footer {
+          background-color: #00254b;
+          height: 280px;
+          width: 100%;
+          float: left;    
+          overflow: hidden;  
+          color: white;   
+        }
+
+
+        #FooterBox {
+          width: 70%;
+          margin-left: 15%;
+          margin-right: 15%;
+          margin-top: 20px;
+          float: left;
+          height: auto;
+        }
+
+
+        .FooterElement {
+          height: 100%;
+          width: 33.3333333333%;
+          float: left;      
+          text-align: center;
+        }
+
+/*Inaktiv 
+        #KontaktFooterBox {
+
+        }
+
+        #KundeserviceFooterBox {
+        }
+
+        #InfoFooterBox {
+        }
+*/
+
+
+
+
+
+
+
+        #BottomFooterDiv {
+          width: 40%;
+          margin-left: 30%;
+          margin-right: 30%;
+          margin-bottom: 50px; 
+          margin-top: -145px;
+          float: left;
+          text-align: center;  
+          background-color: #00254b;
+          padding-top: 20px; 
+          padding-bottom: 20px;
+          border-radius: 50px;
+          transition: 0.2s;
+        }
+        
+        #BottomFooterDiv:hover {
+          background-color: #083563;
+          transition: 0.1s;
+          padding-bottom: 27px;
+          padding-top: 27px;
+          padding-right: 1%;
+          padding-left: 1%;
+          border-radius: 100px;
+          margin-left: 29%;
+          margin-right: 29%;
+          margin-bottom: 36px;
+          
+        }
+
+
+
+
+        .BottomSocialDivs {
+          float: left;
+          margin-left: 50px;
+          margin-right: 50px;
+          height: auto;
+          width: auto;
+        }
+
+
+
+
+
+
+
+
+        .linker {
+          margin-top: 5px;
+        }
+
+
+        
+        #NyheterBox {
+          background-size: contain; 
+          border-radius: 20px; 
+          background-image:  url(../Resusser/Medier\ og\ sosiale\ medier/Bilder/Aktive-bilder/Nyheter/Nyheter1-forside.png);
+          transition: 0.2s;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+
+        #NyheterBox:hover {
+          background-image:  url(../Resusser/Medier\ og\ sosiale\ medier/Bilder/Aktive-bilder/Nyheter/Nyheter1-forside-hover.png);
+          transition: 0.1s;
+        }
+
+
+
+
+
+
+        #produkterUtvalgOsv {
+          background-size: contain; 
+          height: 100%; 
+          border-radius: 20px; 
+          background-image:  url(../Resusser/Medier\ og\ sosiale\ medier/Bilder/Annet/Salg%20bg1.png);
+          transition: 0.2s;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+
+        #produkterUtvalgOsv:hover {
+          background-image:  url(../Resusser/Medier\ og\ sosiale\ medier/Bilder/Annet/Salg%20bg1%20-%20hover.png);
+          transition: 0.1s;
+        }
+
+        #SalgBoksenOsv {
+          background-size: contain; 
+          height: 100%; 
+          border-radius: 20px; 
+          background-image: url(../Resusser/Medier\ og\ sosiale\ medier/Bilder/Aktive-bilder/Salg/Salg1-forside.png);
+          transition: 0.2s;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+        #SalgBoksenOsv:hover {
+          background-size: contain; 
+          height: 100%; 
+          border-radius: 20px; 
+          background-image: url(../Resusser/Medier\ og\ sosiale\ medier/Bilder/Aktive-bilder/Salg/Salg1-forside-hover.png);
+          transition: 0.2s;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+
+
+
+#produkterBtn {
+  cursor: pointer;
+}
+
+
+
+h1 {
+  cursor: pointer;
+}
+
+h2 {
+  cursor: pointer;
+}
+
+h3 {
+  cursor: pointer;
+}
+
+p {
+  cursor: pointer;
+}
+
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #083563;
+  box-shadow: 0px 8px 16px 0px #004639;
+  float: left;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.show {
+  display: block;
+  }
+
+  #produkterMenyen {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+  }
+
+  .kategoriTop {
+    width: 23.75%;
+    float: left;
+    text-align: center;
+    background-color: #00254b;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 1%;
+  }
+
+
+
+
+  .subSubKategoriTekst {
+    text-align: left;
+  }
+
+
+
+  #subKategori-1 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
+  #subKategori-2 {
+    margin-left: 5%;
+    margin-right: 5%;    
+  }
+
+  #subKategori-3 {
+    margin-left: 5%;
+    margin-right: 5%;    
+  }
+
+  #subKategori-4 {
+    margin-left: 5%;
+    margin-right: 5%;    
+  }
+
+
+
+/* SubKategorier ikke i bruk 
+
+  .overskriftProduktMeny {
+    margin-left: 10%;
+  }
+
+  .overskriftProduktMeny2 {
+    margin-left: 20%;
+  }
+
+  .overskriftProduktMeny3 {
+    margin-left: 30%;
+  }
+
+
+
+
+*/
+
+/* Subkategori systemet - start */
+
+
+
+        /* Rad1 */
+
+  #subSubKategori-1-1 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+  }
+
+  #subSubKategori-1-2 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+  #subSubKategori-1-3 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+  }
+  #subSubKategori-1-4 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+  #subSubKategori-1-5 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+  }
+  #subSubKategori-1-6 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+
+         /* Rad1 */
+
+
+
+
+       /* Rad2 */
+
+  #subSubKategori-2-1 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+  }
+  #subSubKategori-2-2 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+  #subSubKategori-2-3 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+  }
+  #subSubKategori-2-4 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+  #subSubKategori-2-5 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+  }
+  #subSubKategori-2-6 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+
+
+         /* Rad2 */
+
+
+
+
+      /* Rad3 */
+
+      #subSubKategori-3-1 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    
+  }
+  #subSubKategori-3-2 {
+    text-align: center;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+
+    /* SkoKategorien */
+    #skoKategorien1 {
+      float: left;
+      width: 30%;
+      text-align: left;
+      margin-right: 20%;
+
+    }
+
+    #skoKategorien2 {
+      float: left;
+      width: 30%;
+      text-align: left;
+      margin-left: 20%;
+
+    }
+
+
+
+    #skoKategorien1-sub1 {
+      text-align: left;
+      font-size: 14px;
+    }
+
+    #skoKategorien1-sub2 {
+      text-align: left;
+      font-size: 14px;
+    }
+
+
+
+
+
+    /* SkoKategorien */
+
+
+         /* Rad3 */
+
+
+
+               /* Rad4 */
+
+  #subSubKategori-4-1 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+  #subSubKategori-4-2 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+  }
+  #subSubKategori-4-3 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+  }
+  #subSubKategori-4-4 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+  #subSubKategori-4-5 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+  }
+  #subSubKategori-4-6 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+
+  #subSubKategori-4-7 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+
+  #subSubKategori-4-8 {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 10%;
+  }
+  
+
+
+         /* Rad4 */
+
+
+/* Subkategori systemet - slutt */
+
+
+
+        
+   </style>
+    <title>Robusten.no</title>
+  </head>
+  <body>  
+  
+
+
+
+  <!--NAV - START-->
+  	   <div id="Headerbar">
+          <a id="logoHeader" href="Index.html"> <img src="../Resusser/Medier og sosiale medier/Bilder/Logoer/Logo 9 - gjennomsiktig R - Hvit skrift - hvit kant farget fyll-01.png" width="302px" height="94px" alt="Robusten.no Logo"> </a>
+          <a onclick="myFunction()" class="menuleft" id="produkterBtn">Produkter</a>
+            <a class="menuleft" href="Hovedsider/Nyheter.html">Nyheter</a>
+            
+            <a style="margin-right: 15%;" class="menuright" href="Hovedsider/Kontakt.html">Handlekurv</a>
+            <a class="menuright" href="Hovedsider/Info.html">Login</a>
+            
+     </div>
+    <div id="ProdukterDropDownMenyenBg">
+     <div id="produkterMenyen" class="dropdown-content">
+       <div>
+
+
+
+
+          <div class="kategoriTop"><a href="Produkter sider/Kostilskudd og Ernæring.html"><h1 class="overskriftProduktMeny">Kostilskudd & Ernæring</h1></a>
+            <div id="subKategori-1">
+              <div id="subSubKategori-1-1"><a href="Produkter sider/Kosttilskudd og Ernæring/Aminosyrer.html" class="subSubKategoriTekst"><h2>Aminosyrer</h2></a>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Aminosyrer/Amino - drikk.html" class="subSubKategoriTekst"><p>Amino - Drikk</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Aminosyrer/Amino - piller.html" class="subSubKategoriTekst"><p>Amino - Piller</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Aminosyrer/Amino - pulver.html" class="subSubKategoriTekst"><p>Amino - Pulver</p></a></div>
+              </div>
+              <div id="subSubKategori-1-2"><a href="Produkter sider/Kosttilskudd og Ernæring/Gainere & Bulking tilskudd.html" class="subSubKategoriTekst"><h2>Bulking Tilskudd</h2></a>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Gainere & bulking tilskudd/Mass Gainere.html" class="subSubKategoriTekst"><p>Mass gainere</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Gainere & bulking tilskudd/Proteinsyntese tilskudd.html" class="subSubKategoriTekst"><p>Tilskudd for gjevn Proteinsyntese</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Gainere & bulking tilskudd/Organ støtte tilskudd.html" class="subSubKategoriTekst"><p>Fordøyelse og Næringsopptak Tilskudd</p></a></div>
+              </div>
+              <div id="subSubKategori-1-3"><a href="Produkter sider/Kosttilskudd og Ernæring/Protein Tilskudd.html" class="subSubKategoriTekst"><h2>Protein Tilskudd</h2></a>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Protein tilskudd/Protein pulver.html" class="subSubKategoriTekst"><p>Protein Pulver</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Protein tilskudd/Protein drikk.html" class="subSubKategoriTekst"><p>Protein Drikk</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Protein tilskudd/Protein snacks.html" class="subSubKategoriTekst"><p>Protein Snacks</p></a></div>
+              </div> 
+              <div id="subSubKategori-1-4"><a href="Produkter sider/Kosttilskudd og Ernæring/Restitsujons Tilskudd.html" class="subSubKategoriTekst"><h2>Restitusjons Tilskudd</h2></a>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Restitusjons tilskudd/Elektrolytt tilskudd.html" class="subSubKategoriTekst"><p>Elektrolytt Tilskudd</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Restitusjons tilskudd/Karbohydrats tilskudd  - øker insulin produksjon.html" class="subSubKategoriTekst"><p>Karbohydrats Tilskudd (insulin økende)</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Restitusjons tilskudd/Kasein tilskudd - hjelper proteinsyntesen.html" class="subSubKategoriTekst"><p>Kasein Tilskudd</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Restitusjons tilskudd/Søvn kvalitets tilskudd.html" class="subSubKategoriTekst"><p>Søvnkvalitet Tilskudd</p></a></div>
+              </div> 
+              <div id="subSubKategori-1-5"><a href="Produkter sider/Kosttilskudd og Ernæring/Vitaminer & mineraler + fettsyrer.html" class="subSubKategoriTekst"><h2>Daglige Tilskudd</h2><p style="margin-top: -20px;">(Vitaminer, Mineraler &amp; Fettsyrer.)</p></a>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Vitaminer & mineraler + fettsyrer/Elektrolytt tilskudd.html" class="subSubKategoriTekst"><p>Elektrolytt Tilskudd</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Vitaminer & mineraler + fettsyrer/Fettsyrer.html" class="subSubKategoriTekst"><p>Fettsyrer</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Vitaminer & mineraler + fettsyrer/Vitaminer.html" class="subSubKategoriTekst"><p>Vitaminer</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Vitaminer & mineraler + fettsyrer/Mineraler.html" class="subSubKategoriTekst"><p>Mineraler</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Vitaminer & mineraler + fettsyrer/Multi vitamin & mineral tilskudd.html" class="subSubKategoriTekst"><p>Multi Vitamin & Mineral Tilskudd</p></a></div>
+              </div>
+              <div id="subSubKategori-1-6"><a href="Produkter sider/Kosttilskudd og Ernæring/Ytelse tilskudd - (kreatin, pwe etc).html" class="subSubKategoriTekst"><h2>Ytelse Tilskudd</h2><p style="margin-top: -20px;">(Kreatin PWE osv.)</p></a>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Ytelse tilskudd - (kreatin, pwe etc)/Beta alanin.html" class="subSubKategoriTekst"><p>Beta alanin</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Ytelse tilskudd - (kreatin, pwe etc)/Kreatin.html" class="subSubKategoriTekst"><p>Kreatin</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Ytelse tilskudd - (kreatin, pwe etc)/HMB.html" class="subSubKategoriTekst"><p>HMB</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Ytelse tilskudd - (kreatin, pwe etc)/PWE - Pre Work Out.html" class="subSubKategoriTekst"><p>PWE</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Ytelse tilskudd - (kreatin, pwe etc)/Testosteron boostere.html" class="subSubKategoriTekst"><p>Testosteron Boostere</p></a></div>
+                <div><a href="Produkter sider/Kosttilskudd og Ernæring/Ytelse tilskudd - (kreatin, pwe etc)/Fettforbrennere.html" class="subSubKategoriTekst"><p>Fettforbrennere</p></a></div>
+              </div>              
+            </div>
+          </div>
+
+
+
+
+          <div class="kategoriTop"><a href="Produkter sider/Utstyr.html"><h1 class="overskriftProduktMeny3">Utstyr</h1></a>
+            <div id="subKategori-2">
+              <div id="subSubKategori-2-1"><a href="Produkter sider/Utstyr/Frivekter.html" class="subSubKategoriTekst"><h2>Frivekter</h2></a>
+                <div><a href="Produkter sider/Utstyr/Frivekter/Kettlebells.html" class="subSubKategoriTekst"><p>Kettlbells</p></a></div>
+                <div><a href="Produkter sider/Utstyr/Frivekter/Manualer.html" class="subSubKategoriTekst"><p>Manualer</p></a></div>
+                <div><a href="Produkter sider/Utstyr/Frivekter/Vektskiver.html" class="subSubKategoriTekst"><p>Vektskiver</p></a></div>
+                <div><a href="Produkter sider/Utstyr/Frivekter/Vektstenger.html" class="subSubKategoriTekst"><p>Vektstenger</p></a></div>
+                <div><a href="Produkter sider/Utstyr/Frivekter/Vektstativer & oppbevaring.html" class="subSubKategoriTekst"><p>Vektstativ & Oppbevaring</p></a></div>
+              </div>
+              <div id="subSubKategori-2-2"><a href="Produkter sider/Utstyr/Stativer.html" class="subSubKategoriTekst"><h2>Stativer</h2></a>
+                  <div><a href="Produkter sider/Utstyr/Stativer/All in one - Benkpress oppsett.html" class="subSubKategoriTekst"><p>All in one - Benkpress Oppsett</p></a></div>
+                  <div><a href="Produkter sider/Utstyr/Stativer/Benkpress stativ.html" class="subSubKategoriTekst"><p>Benkpress Stativ</p></a></div>
+                  <div><a href="Produkter sider/Utstyr/Stativer/Dipstativ.html" class="subSubKategoriTekst"><p>Dipstativ</p></a></div>
+                  <div><a href="Produkter sider/Utstyr/Stativer/Knebøystativ.html" class="subSubKategoriTekst"><p>Knebøystativ</p></a></div>
+                  <div><a href="Produkter sider/Utstyr/Stativer/Racks.html" class="subSubKategoriTekst"><p>Racks</p></a></div>
+                  <div><a href="Produkter sider/Utstyr/Stativer/Stativ tilbehør.html" class="subSubKategoriTekst"><p>Stativ Tilbehør</p></a></div>
+              </div>
+              <div id="subSubKategori-2-3"><a href="Produkter sider/Utstyr/Strikk og kjetting.html" class="subSubKategoriTekst"><h2>Strikk og Kjetting</h2></a>
+                <div><a href="Produkter sider/Utstyr/Strikk og kjetting/Trenings kjetting.html" class="subSubKategoriTekst"><p>Trenings Kjetting</p></a></div>
+                <div><a href="Produkter sider/Utstyr/Strikk og kjetting/Trenings strikk.html" class="subSubKategoriTekst"><p>Trenings Strikk</p></a></div>
+            </div>
+            <div id="subSubKategori-2-4"><a href="Produkter sider/Utstyr/Styrke aparater.html" class="subSubKategoriTekst"><h2>Styrke Aparater</h2></a>
+              <div><a href="Produkter sider/Utstyr/Styrke aparater/All in one - Benkpress oppsett.html" class="subSubKategoriTekst"><p>All in one - Benkpress Oppsett</p></a></div>
+              <div><a href="Produkter sider/Utstyr/Styrke aparater/IsolasjonsMaskiner.html" class="subSubKategoriTekst"><p>Isolasjons Maskiner</p></a></div>
+              <div><a href="Produkter sider/Utstyr/Styrke aparater/Kabel aparater.html" class="subSubKategoriTekst"><p>Kabel Aparater</p></a></div>
+              <div><a href="Produkter sider/Utstyr/Styrke aparater/Kombinasjons aparater & maskiner.html" class="subSubKategoriTekst"><p>Kombinasjons Aparater & Maskiner</p></a></div>
+              <div><a href="Produkter sider/Utstyr/Styrke aparater/Multigym aparater.html" class="subSubKategoriTekst"><p>Multigym Aparater</p></a></div>
+            </div> 
+            <div id="subSubKategori-2-5"><a href="Produkter sider/Utstyr/Trenings benker.html" class="subSubKategoriTekst"><h2>Trenings Benker</h2></a>
+              <div><a href="Produkter sider/Utstyr/Trenings benker/All in one - Benkpress oppsett.html" class="subSubKategoriTekst"><p>All in one - Benkpress Oppsett</p></a></div>
+              <div><a href="Produkter sider/Utstyr/Trenings benker/Ikke justerbare.html" class="subSubKategoriTekst"><p>Ikke justerbare</p></a></div>
+              <div><a href="Produkter sider/Utstyr/Trenings benker/Justerbare.html" class="subSubKategoriTekst"><p>Justerbare</p></a></div>
+            </div>  
+            <div id="subSubKategori-2-6"><a href="Produkter sider/Utstyr/Trenings utstyr & tilbehør.html" class="subSubKategoriTekst"><h2>Trenings Utstyr</h2><p style="margin-top: -20px;">(Og Tilbehør.)</p></a>
+              <div><a href="Produkter sider/Utstyr/Trenings utstyr & tilbehør/Dip belter.html" class="subSubKategoriTekst"><p>Dip Belter</p></a></div>
+              <div><a href="Produkter sider/Utstyr/Trenings utstyr & tilbehør/Ledd beskyttelse.html" class="subSubKategoriTekst"><p>Ledd Beskyttelse</p></a></div>
+              <div><a href="Produkter sider/Utstyr/Trenings utstyr & tilbehør/Løfte straps.html" class="subSubKategoriTekst"><p>Løfte Straps</p></a></div>
+              <div><a href="Produkter sider/Utstyr/Trenings utstyr & tilbehør/Trenings hansker.html" class="subSubKategoriTekst"><p>Trenings Hansker</p></a></div>
+              <div><a href="Produkter sider/Utstyr/Trenings utstyr & tilbehør/Vektløftings belter.html" class="subSubKategoriTekst"><p>Vektløftings Belter</p></a></div>
+              <div><a href="Produkter sider/Utstyr/Trenings utstyr & tilbehør/Vektvester.html" class="subSubKategoriTekst"><p>Vektvester</p></a></div>
+            </div>                    
+          </div>
+        </div>
+
+
+
+
+
+
+          <div class="kategoriTop"><a href="Produkter sider/Trenings Klær & sko.html"><h1 class="overskriftProduktMeny">Trenings Klær & Sko</h1></a>
+            <div id="subKategori-3">
+              <div id="subSubKategori-3-1"><a href="Produkter sider/Trenings Klær & sko/klær.html" class="subSubKategoriTekst"><h2>Klær</h2></a>
+                <div><a href="Produkter sider/Trenings Klær & sko/Klær/Trenings bukse.html" class="subSubKategoriTekst"><p>Trenings Bukse</p></a></div>
+                <div><a href="Produkter sider/Trenings Klær & sko/Klær/Trenings shorts.html" class="subSubKategoriTekst"><p>Trenings Shorts</p></a></div>
+                <div><a href="Produkter sider/Trenings Klær & sko/Klær/Trenings gensere.html" class="subSubKategoriTekst"><p>Trenings Gensere</p></a></div>
+                <div><a href="Produkter sider/Trenings Klær & sko/Klær/Trenings tskjorter.html" class="subSubKategoriTekst"><p>Trenings Tskjorter</p></a></div>
+                <div><a href="Produkter sider/Trenings Klær & sko/Klær/Hettegensere.html" class="subSubKategoriTekst"><p>Hettegensere</p></a></div>
+                <div><a href="Produkter sider/Trenings Klær & sko/Klær/Trenings bånd,strikk osv.html" class="subSubKategoriTekst"><p>Trenings bånd, strikk osv.</p></a></div>
+              </div>  
+              <div id="subSubKategori-3-2"><a href="Produkter sider/Trenings Klær & sko/sko.html" class="subSubKategoriTekst"><h2>Sko</h2></a>
+                <div id="skoKategorien1"><a href="Produkter sider/Trenings Klær & sko/Sko/Innesko.html" class="subSubKategoriTekst"><h3>Innesko</h3></a>
+                    <div id="skoKategorien1-sub1">
+                      <div><a href="Produkter sider/Trenings Klær & sko/Sko/Innesko/Joggesko.html" class="subSubKategoriTekst"><p>Joggesko</p></a></div>
+                      <div><a href="Produkter sider/Trenings Klær & sko/Sko/Innesko/Vektløftings sko.html" class="subSubKategoriTekst"><p>Vektløftings sko</p></a></div>
+                    </div>
+                </div>
+                <div id="skoKategorien2"><a  href="Produkter sider/Trenings Klær & sko/Sko/Utesko.html" class="subSubKategoriTekst"><h3>Utesko</h3></a>
+                  <div id="skoKategorien1-sub2">
+                    <div><a href="Produkter sider/Trenings Klær & sko/Sko/Utesko/Joggesko.html" class="subSubKategoriTekst"><p>Joggesko</p></a></div>
+                    <div><a href="Produkter sider/Trenings Klær & sko/Sko/Utesko/Boots.html" class="subSubKategoriTekst"><p>Boots</p></a></div>
+                      </div>
+                </div>
+              </div>                      
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="kategoriTop"><a href="Produkter sider/Tilbehør.html"><h1 class="overskriftProduktMeny2">Tilbehør</h1></a>
+            <div id="subKategori-4">
+
+
+              <div id="subSubKategori-4-2"><a href="Produkter sider/Tilbehør/Helse.html" class="subSubKategoriTekst"><h2>Helse</h2></a>
+                <div><a href="Produkter sider/Tilbehør/Helse/Blodtrykk målere.html" class="subSubKategoriTekst"><p>Blodtrykk Målere</p></a></div>
+                <div><a href="Produkter sider/Tilbehør/Helse/Blodsukker målere.html" class="subSubKategoriTekst"><p>Blodsukker Målere</p></a></div>
+                <div><a href="Produkter sider/Tilbehør/Helse/Glukose målere.html" class="subSubKategoriTekst"><p>Glukose Målere</p></a></div>
+                <div><a href="Produkter sider/Tilbehør/Helse/Fettprosent målere.html" class="subSubKategoriTekst"><p>Fettprosent Målere</p></a></div>
+                <div><a href="Produkter sider/Tilbehør/Helse/Oksygen opptak måler.html" class="subSubKategoriTekst"><p>Oksygen Opptak målere</p></a></div>
+                <div><a href="Produkter sider/Tilbehør/Helse/Puls klokker.html" class="subSubKategoriTekst"><p>Puls Klokker</p></a></div>
+                <div><a href="Produkter sider/Tilbehør/Helse/Testosteron målere.html" class="subSubKategoriTekst"><p>Testosteron Målere</p></a></div>
+              </div> 
+
+
+              <div id="subSubKategori-4-7"><a href="Produkter sider/Tilbehør/Vekt.html" class="subSubKategoriTekst"><h2>Vekt</h2></a>
+                <div><a href="Produkter sider/Tilbehør/Vekt/Matvekt.html" class="subSubKategoriTekst"><p>Kjøkken Vekt</p></a></div>
+                <div><a href="Produkter sider/Tilbehør/Vekt/Badvekt.html" class="subSubKategoriTekst"><p>Bad Vekt</p></a></div>
+              </div>    
+              <div id="subSubKategori-4-8"><a href="Produkter sider/Tilbehør/Yoga.html" class="subSubKategoriTekst"><h2>Yoga</h2></a>
+                <div><a href="Produkter sider/Tilbehør/Yoga/Yoga matter.html" class="subSubKategoriTekst"><p>Yoga Matter</p></a></div>
+                <div><a href="Produkter sider/Tilbehør/Yoga/Yoga utstyr.html" class="subSubKategoriTekst"><p>Yoga Utstyr</p></a></div>
+              </div> 
+
+              
+              <div id="subSubKategori-4-4"><a href="Produkter sider/Tilbehør/Låser.html" class="subSubKategoriTekst"><h2>Låser</h2></a>
+
+              </div>  
+
+
+
+              <div id="subSubKategori-4-5"><a href="Produkter sider/Tilbehør/Shakere & drikkeflasker.html" class="subSubKategoriTekst"><h2>Shakere & Drikkeflasker</h2></a>
+
+              </div> 
+
+              
+
+              <div id="subSubKategori-4-1"><a href="Produkter sider/Tilbehør/Bagger & sekker.html" class="subSubKategoriTekst"><h2>Bagger & Sekker</h2></a>
+
+              </div>
+
+              
+
+              <div id="subSubKategori-4-6"><a href="Produkter sider/Tilbehør/Tøye aparater.html" class="subSubKategoriTekst"><h2>Tøye Aparater</h2></a>
+
+              </div> 
+
+
+
+              <div id="subSubKategori-4-3"><a href="Produkter sider/Tilbehør/Loggføring & rutine hjelpemidler.html" class="subSubKategoriTekst"><h2>Rutine Hjelpemidler</h2></a>
+
+              </div>  
+
+
+
+
+                                    
+            </div>
+          </div>
+
+
+
+
+
+
+       </div>
+      </div>
+    </div>
+<!--NAV - SLUTT-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <hr style="margin-top: -1px; margin-bottom: -1px; height: 1px;">
+
+
+
+
+
+
+
+
+<!--BoxNav Div - START-->
+
+  <div class="sideFilene"></div>
+    <div id="HovedFil">
+     <div id="main">
+
+
+      <div style="margin-right: 1.66666666667%;" id="NyheterBox" class="sectionMedium">
+        <div id="NyheterBoxSub" class="headerBox">
+          <h1 style="font-size: 35px;">Nyheter</h1>
+         </div>
+        </div>
+
+       <div id="SalgBox" class="sectionMedium">
+        <div id="SalgBoksenOsv" class="headerBox"><h1 style="font-size: 35px;">20% Salg på - ALLE Aminosyrer</h1></div>
+       </div>
+
+             
+       <div style="margin-right: 1.66666666667%; height: 373px;" id="ProdukterBox" class="sectionMedium">
+         <div id="produkterUtvalgOsv" class="headerBox"><h2>Utvalgte produkter</h2></div>
+       </div>
+
+       <div style="margin-right: 1.66666666667%;"  id="ØkterOgPremierBox" class="elementer">
+        <div class="headerBox"><h2>Ukens økt</h2></div>
+      </div>
+
+       <div id="TreningsprogramBox" class="elementer">
+        <div class="headerBox"><h2>Treningsprogram</h2></div>
+      </div>
+              <!--inaktiv boks - start
+       <div id="loserBox" class="elementer">
+        <div class="headerBox"><h2></h2></div>
+       </div>
+            inaktiv boks - SLUTT-->
+
+     </div>
+    </div>  
+  <div class="sideFilene"></div>
+     <!--BoxNav Div - SLUTT-->
+
+
+
+
+     <div id="BottomFooterDiv">
+      <div style="margin-left: 180px;" class="BottomSocialDivs"><a href="https://www.facebook.com/Robusten.no"><img src="../Resusser/Medier og sosiale medier/Bilder/Ikoner/Sosiale medier ikoner alle croppet-01.png" width="50px" height="50px" alt="Facebook logoen"></a></div>
+      <div class="BottomSocialDivs"><a href="https://www.instagram.com/robusten.no"><img src="../Resusser/Medier og sosiale medier/Bilder/Ikoner/Sosiale medier ikoner alle croppet-06.png" width="50px" height="50px" alt="Instagram logoen"></a></div>
+      <div class="BottomSocialDivs"><a href="https://www.linkedin.com/company/robusten-no"><img src="../Resusser/Medier og sosiale medier/Bilder/Ikoner/Sosiale medier ikoner alle croppet-03.png" width="50px" height="50px" alt="Linkedin logoen"></a></div>
+      <div class="BottomSocialDivs"><a href="https://www.youtube.com/channel/UC6LqWpmkz1xCLsXnJ-hYzNQ"><img src="../Resusser/Medier og sosiale medier/Bilder/Ikoner/Sosiale medier ikoner alle croppet-05.png" width="50px" height="50px" alt="Youtube logoen"></a></div>
+      <div class="BottomSocialDivs"><a href="https://twitter.com/RobustenNO"><img src="../Resusser/Medier og sosiale medier/Bilder/Ikoner/Sosiale medier ikoner alle croppet-04.png" width="50px" height="50px" alt="Twitter logoen"></a></div>
+      </div>
+
+
+
+     <div id="footer">
+      
+
+      <div id="FooterBox">
+       <div class="FooterElement"><h1>Kontakt</h1>
+          <div id="KontaktFooterBox">           
+           <div class="linker"><a href="Hovedsider/Kontakt.html">Kontakt side</a></div>
+           <div class="linker"><a href="Hovedsider/Kontakt.html#QA">Spørsmål & Svar</a></div>
+           <div class="linker"><a href="Hovedsider/Kontakt.html#chat">Chat med en operatør</a></div>
+           <div class="linker"><a href="Hovedsider/Kontakt.html">Kundebetjening &nbsp;|&nbsp; 10:00 - 24:00</a></div>           
+          </div>
+       </div>
+       <div class="FooterElement"><h1>Kundeservice</h1>
+            <div id="KundeserviceFooterBox">
+              <div class="linker"><a href="Hovedsider/Medlemside.html">Bli medlem</a></div>
+              <div class="linker"><a href="Hovedsider/Kundeservice.html">Kundesenter</a></div>
+              <div class="linker"><a href="Lover&Regler sider/Salgsbetingelser.html">Salgsbetingelser</a></div>
+              <div class="linker"><a href="Hovedsider/Kundeservice.html">Reklamasjon og garanti</a></div> 
+            </div>
+       </div>
+       <div class="FooterElement"><h1>Info</h1>
+            <div id="InfoFooterBox">
+              <div class="linker"><a href="Lover&Regler sider/Vilkår.html">Generellevilkår</a></div> 
+              <div class="linker"><a href="Lover&Regler sider/Vilkår.html#Leveringsvilkår">Leveringsvilkår</a></div>
+              <div class="linker"><a href="Lover&Regler sider/Vilkår.html#Medlemsvilkår">Medlemsvilkår</a></div> 
+              <div class="linker"><a href="Lover&Regler sider/Personopplysninger.html">Personopplysninger</a></div>
+            </div>
+       </div>
+      </div>
+          
+ 
+
+
+
+     </div>
+
+
+
+     
+
+
+
+
+
+<!--BoxNav Script - START-->
+<script>
+  document.getElementById("NyheterBox").onclick = function () {
+    location.href = "Hovedsider/Nyheter.html";
+};
+document.getElementById("SalgBox").onclick = function () {
+    location.href = "Hovedsider/Salg.html";
+};
+document.getElementById("ProdukterBox").onclick = function () {
+    location.href = "Hovedsider/Produkter.html";
+};
+document.getElementById("ØkterOgPremierBox").onclick = function () {
+    location.href = "Hovedsider/Økter og premier.html";
+};
+document.getElementById("TreningsprogramBox").onclick = function () {
+    location.href = "Hovedsider/Treningsprogram.html";
+};
+</script>
+<!--BoxNav Script - SLUTT-->
+
+
+
+
+
+
+
+
+
+<!--Produkter Meny - Start-->
+
+<script>
+  /* OnClick Toggler mellom å vise og ta vekk menyen */
+  function myFunction() {
+    document.getElementById("produkterMenyen").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('#produkterBtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+<!--Produkter Meny - Slutt-->
+
+
+
+
+  
+
+  </body>
+</html>
